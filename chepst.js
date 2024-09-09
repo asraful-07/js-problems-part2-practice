@@ -5,7 +5,7 @@ const phones = [
     {name: 'walton', price: 2000, camera: '24mp', color: 'black'},
     {name: 'Xoami', price: 31000, camera: '24mp', color: 'black'},
     {name: 'htc', price: 23000, camera: '24mp', color: 'black'}
-]
+];
 
 
 function getCheapestPhone(phones){
@@ -21,4 +21,3 @@ function getCheapestPhone(phones){
 const mobil = getCheapestPhone(phones);
 console.log(mobil);
 
-// msx phone.price hw

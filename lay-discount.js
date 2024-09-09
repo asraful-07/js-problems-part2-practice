@@ -7,7 +7,7 @@ function discountedPrice(quantity){
         const total = quantity * firstPrice;
         return total;
     }
-    if(quantity <= 200){
+    else if(quantity <= 200){
         const firstPrice = 100 * firstPrice;
         const reainQuantity = quantity - 100;
         const reainTotalQuantity = reainQuantity *secondPrice;
